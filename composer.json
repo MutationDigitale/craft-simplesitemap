@@ -1,0 +1,21 @@
+{
+  "name": "mutation/simplesitemap",
+  "description": "Multilingual sitemap",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "minimum-stability": "beta",
+  "autoload": {
+    "psr-4": {
+      "mutation\\simplesitemap\\": "src/"
+    }
+  },
+  "support": {
+    "email": "sam@mutation.io"
+  },
+  "extra": {
+    "handle": "simplesitemap",
+    "name": "Simple Sitemap",
+    "developer": "Mutation Digitale",
+    "developerUrl": "http://mutation.io"
+  }
+}
