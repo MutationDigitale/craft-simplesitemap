@@ -1,21 +1,33 @@
 {
   "name": "mutation/simplesitemap",
   "description": "Multilingual sitemap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "craft-plugin",
-  "minimum-stability": "beta",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mutation Digitale",
+      "email": "sam@mutation.io",
+      "homepage": "https://mutation.io/"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0.0"
+  },
   "autoload": {
     "psr-4": {
       "mutation\\simplesitemap\\": "src/"
     }
   },
-  "support": {
-    "email": "sam@mutation.io"
-  },
   "extra": {
-    "handle": "simplesitemap",
     "name": "Simple Sitemap",
-    "developer": "Mutation Digitale",
-    "developerUrl": "http://mutation.io"
+    "handle": "simplesitemap",
+    "schemaVersion": "1.0.0",
+    "developerEmail": "sam@mutation.io",
+    "documentationUrl": "https://bitbucket.org/mutationdigitale/craft3-simplesitemap/src/master/README.md",
+    "changelogUrl": "https://bitbucket.org/mutationdigitale/craft3-simplesitemap/raw/master/CHANGELOG.md",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "class": "mutation\\simplesitemap\\SimpleSitemap"
   }
 }

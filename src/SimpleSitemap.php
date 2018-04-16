@@ -2,12 +2,13 @@
 
 namespace mutation\simplesitemap;
 
+use craft\base\Plugin;
 use craft\events\RegisterUrlRulesEvent;
 use craft\web\UrlManager;
 use mutation\simplesitemap\controllers\SitemapController;
 use yii\base\Event;
 
-class Plugin extends \craft\base\Plugin
+class SimpleSitemap extends Plugin
 {
 	public $controllerMap = [
 		'sitemap' => SitemapController::class,
