@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3 - 2018-10-23
+
+### Fixed
+- Fixed sites handles
+
 ## 1.0.2 - 2018-10-23
 
 ### Changed
