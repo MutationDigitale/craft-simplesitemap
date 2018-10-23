@@ -3,11 +3,14 @@
   "description": "Multilingual sitemap",
   "version": "1.0.2",
   "type": "craft-plugin",
+  "support": {
+    "docs": "https://github.com/MutationDigitale/craft3-simplesitemap/blob/master/README.md",
+    "issues": "https://github.com/MutationDigitale/craft3-simplesitemap/issues"
+  },
   "license": "MIT",
   "authors": [
     {
       "name": "Mutation Digitale",
-      "email": "sam@mutation.io",
       "homepage": "https://mutation.io/"
     }
   ],
@@ -23,11 +26,9 @@
     "name": "Simple Sitemap",
     "handle": "simplesitemap",
     "schemaVersion": "1.0.0",
-    "developerEmail": "sam@mutation.io",
-    "documentationUrl": "https://bitbucket.org/mutationdigitale/craft3-simplesitemap/src/master/README.md",
-    "changelogUrl": "https://bitbucket.org/mutationdigitale/craft3-simplesitemap/raw/master/CHANGELOG.md",
     "hasCpSettings": false,
     "hasCpSection": false,
+    "changelogUrl": "https://raw.githubusercontent.com/MutationDigitale/craft3-simplesitemap/master/CHANGELOG.md",
     "class": "mutation\\simplesitemap\\SimpleSitemap"
   }
 }
