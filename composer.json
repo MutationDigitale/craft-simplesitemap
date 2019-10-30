@@ -1,7 +1,6 @@
 {
   "name": "mutation/simplesitemap",
   "description": "Multilingual sitemap",
-  "version": "1.0.3",
   "type": "craft-plugin",
   "support": {
     "docs": "https://github.com/MutationDigitale/craft3-simplesitemap/blob/master/README.md",
