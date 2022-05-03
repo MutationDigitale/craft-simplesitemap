@@ -13,7 +13,7 @@ use yii\web\Response;
 
 class SitemapController extends Controller
 {
-    public $allowAnonymous = true;
+    public int|bool|array $allowAnonymous = true;
 
     public function actionIndex()
     {
