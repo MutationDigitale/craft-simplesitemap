@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0-beta.3 - 2022-05-03
+
+### Fixed
+- Fixed empty xml
+
 ## 2.0.0-beta.2 - 2022-05-03
 
 ### Fixed

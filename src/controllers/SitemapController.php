@@ -60,7 +60,7 @@ class SitemapController extends Controller
                         }
 
                         $url = $xml->addChild('url');
-                        if ($url) {
+                        if ($url !== null) {
                             $url->addChild('loc', $entry->url);
                             $url->addChild('lastmod', $entry->dateUpdated->format(DateTime::W3C));
                             $url->addChild('priority', $entry->uri === '__home__' ? 0.75 : 0.5);
@@ -74,7 +74,7 @@ class SitemapController extends Controller
                             }
 
                             $altLink = $url->addChild('xhtml:link', null, 'http://www.w3.org/1999/xhtml');
-                            if ($altLink) {
+                            if ($altLink !== null) {
                                 $altLink->addAttribute('rel', 'alternate');
                                 $altLink->addAttribute('hreflang', $site->language);
                                 $altLink->addAttribute('href', $altEntry->url);
